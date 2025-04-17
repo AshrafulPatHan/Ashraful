@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
+import Providers from "@/redux/Provider";
 
 
 const geistSans = Geist({
@@ -30,9 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <Providers>
         <Theme>
           {children}
         </Theme>
+      </Providers>
+        
       </body>
     </html>
   );
