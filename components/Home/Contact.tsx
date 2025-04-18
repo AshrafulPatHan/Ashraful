@@ -3,7 +3,7 @@ import ContactImg from '@/assets/image/Contact.jpg'
 
 export default function Contact(){
    return(
-      <div>
+      <div className="mb-28">
          <div>
             <p>Contact</p>
             <h2>CONTACT WITH ME</h2>
