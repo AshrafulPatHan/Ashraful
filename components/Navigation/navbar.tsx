@@ -1,23 +1,27 @@
 import Image from "next/image";
+import Logo from "@/assets/image/logo.svg";
 
 
 export default function Navbar() {
    return(
       <div>
-         <div>
-            <div>
-               <Image src="" alt="logo" />
-               <h3>Ashraful pathan</h3>
+         <div className="flex flex-row items-center justify-between px-8 pt-2 ">
+            <div className="flex flex-row items-center gap-2">
+               <Image src={Logo} alt="logo" width={40}  />
+               <h3 className="text-xl font-bold">Ashraful pathan</h3>
+            </div>
+            <div className="flex flex-row items-center gap-4">
+               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">HOME</p>
+               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">SKILLS</p>
+               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">PROJECTS</p>
+               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">EDUCATION</p>
+               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">CONTACT</p>
             </div>
             <div>
-               <p>HOME</p>
-               <p>SKILLS</p>
-               <p>PROJECTS</p>
-               <p>EDUCATION</p>
-               <p>CONTACT</p>
-            </div>
-            <div>
-               <button>Github Profile</button>
+               <button
+               className=" hidden lg:flex transition-all duration-500  border 
+               border-[#854CE6] text-[#854CE6] hover:bg-[#854CE6] hover:text-white rounded-full px-6 py-2"
+               >Github Profile</button>
             </div>
          </div>
       </div>
