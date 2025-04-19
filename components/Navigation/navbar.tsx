@@ -1,12 +1,15 @@
+"use client"
 import Image from "next/image";
 import Logo from "@/assets/image/logo.svg";
 import snow from "@/assets/image/icons/snowflake.png";
 import { Button, DropdownMenu } from "@radix-ui/themes";
 import Link from "next/link";
 
+type Props = {
+   toggleSnow: () => void;
+ };
 
-
-export default function Navbar() {
+export default function Navbar({ toggleSnow }: Props) {
    return(
       <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 backdrop-blur-lg sticky top-0 z-50 px-8 py-2 ">
          <div className="flex flex-row items-center justify-between  text-white ">
@@ -23,7 +26,9 @@ export default function Navbar() {
             </div>
             <div className="flex flex-row items-center gap-2">
                <div>
-                  <button className=" cursor-pointer sm:flex items-center gap-[2px] border border-blue-100 rounded-lg py-[1px] text-sm px-2 
+                  <button 
+                  onClick={toggleSnow}
+                  className=" cursor-pointer sm:flex items-center gap-[2px] border border-blue-100 rounded-lg py-[1px] text-sm px-2 
                   hover:bg-blue-600 transform-fill duration-500 hidden ">
                      <Image src={snow} width={30} alt="Snow" />
                      Snowfall
