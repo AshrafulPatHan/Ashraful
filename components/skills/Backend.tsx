@@ -20,7 +20,7 @@ export default function Backend() {
               className="w-[48px] h-[48px] "
               alt="Node"
             />
-            <p>Node</p>
+            <p>Node js</p>
           </div>
           <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
@@ -30,7 +30,7 @@ export default function Backend() {
               className="w-[48px] h-[48px] "
               alt="Express"
             />
-            <p>Express</p>
+            <p>Express js</p>
           </div>
           <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
