@@ -11,13 +11,23 @@ import Navbar from "@/components/Navigation/navbar";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <Skills/>
-      <Projects/>
-      <Education/>
-      <Contact/>
-      <Footer/>
+    <Navbar />
+    <div id="home">
+      <Hero />
     </div>
+    <div id="skills">
+      <Skills />
+    </div>
+    <div id="projects">
+      <Projects />
+    </div>
+    <div id="education">
+      <Education />
+    </div>
+    <div id="contact">
+      <Contact />
+    </div>
+    <Footer />
+  </div>
   );
 }

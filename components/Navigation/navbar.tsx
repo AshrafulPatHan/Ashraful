@@ -15,11 +15,11 @@ export default function Navbar() {
                <h3 className="text-[5vw] sm:text-xl font-bold ">Ashraful pathan</h3>
             </Link>
             <div className="hidden lg:flex lg:flex-row items-center gap-4">
-               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">HOME</p>
-               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">SKILLS</p>
-               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">PROJECTS</p>
-               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">EDUCATION</p>
-               <p className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">CONTACT</p>
+               <Link href='#home' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">HOME</Link>
+               <Link href='#skills' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">SKILLS</Link>
+               <Link href='#projects' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">PROJECTS</Link>
+               <Link href='#education' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">EDUCATION</Link>
+               <Link href='#contact' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">CONTACT</Link>
             </div>
             <div className="flex flex-row items-center gap-2">
                <div>
