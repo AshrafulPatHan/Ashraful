@@ -3,7 +3,7 @@
 Hi, I'm **Ashraful**, a 17-year-old passionate **React.js Developer**.  
 This is my personal portfolio website built using modern frontend technologies to showcase my projects, skills, and passion for web development.
 
-🔗 **Live Website:** [ashraful-pathan.web.app](https://ashraful-pathan.web.app/)  
+🔗 **Live Website:** [ashraful-pathan.web.app](https://ashraful-pathan.vercel.app/)  
 📁 **GitHub Repo:** [github.com/AshrafulPatHan/Ashraful](https://github.com/AshrafulPatHan/Ashraful.git)
 
 ---
@@ -30,7 +30,7 @@ This is my personal portfolio website built using modern frontend technologies t
 | Animations      | Framer Motion, GSAP                        |
 | State Management| Redux Toolkit                              |
 | Notifications   | React Hot Toast                            |
-| Deployment      | Firebase Hosting                           |
+| Deployment      | vercel Hosting                           |
 
 ---
 
