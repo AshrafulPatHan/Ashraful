@@ -1,9 +1,11 @@
+"use client"
 import Image from "next/image";
 import facebookLogo  from "@/assets/image/logo/icons8-facebook.svg";
 import twitterLogo  from "@/assets/image/logo/bird.svg";
 import linkedinLogo  from "@/assets/image/logo/icons8-linkedin.svg";
 import GithubLogo  from "@/assets/image/logo/github.png";
 import Ashraful  from "@/assets/image/ashraful.png";
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function Hero() {
    return(
@@ -11,12 +13,28 @@ export default function Hero() {
        px-4 pt-20 ">
          <div className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center">
             <div className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
-               <p className="text-sm font-medium text-[#60A5FA] ">Howrah!</p>
-               <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center ">I am Ashraful Pathan</h1>
-               <h3 className="text-2xl xl:text-[30px] font-medium sm:font-bold ">A Frontend Developer</h3>
+               <p className="text-sm font-medium text-[#60A5FA] ">Yahoo!</p>
+               <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center ">Ashraful Pathan</h1>
+               <h2 className="text-2xl xl:text-[30px] font-medium sm:font-bold ">
+                  I am a {' '} 
+                  <span className="text-blue-400">
+                     <Typewriter
+                        words={['React Developer', 'Front-End Developer', 'Full-Stack Learner']}
+                        loop={true}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                     />
+                  </span>
+               </h2>
                <p className="w-[80vw] md:w-auto text-center md:text-start">
-                  I ma junior frontend developer of a react js developer
-                  I mack dynamic and responsive website
+               Hi, I'm Ashraful Pathan — a 17-year-old React.js Developer.
+               With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and 
+               I’m also confident working on the backend with Node.js, Express.js, and MongoDB. I’m skilled in both JavaScript and 
+               TypeScript, and I’ve also worked with Next.js and Python. I’m passionate about learning, creating, and bringing ideas 
+               to life through clean and functional code.
                </p>
                <div className="flex flex-row items-center gap-3 mt-7">
                   <a href="https://github.com/AshrafulPatHan" 
