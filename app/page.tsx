@@ -18,10 +18,10 @@ export default function Home() {
 
   useEffect(() => {
     const img1 = new Image();
-    img1.src = snowflake1.src; // ✅ use .src
+    img1.src = snowflake1.src; 
 
     const img2 = new Image();
-    img2.src = snowflake2.src; // ✅ use .src
+    img2.src = snowflake2.src; 
 
     setSnowImages([img1, img2]);
   }, []);

@@ -8,6 +8,8 @@ import Tailwindcss from "@/assets/image/logo/icons8-tailwindcss.svg";
 import Bootstrap from "@/assets/image/logo/icons8-bootstrap.svg";
 import Html from "@/assets/image/logo/icons8-html5-96.png";
 import Css from "@/assets/image/logo/icons8-css3.svg";
+import * as motion from "motion/react-client"
+
 
 export default function Frontend() {
   return (
@@ -15,7 +17,11 @@ export default function Frontend() {
       <div className=" w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Frontend</h4>
         <div className="grid grid-cols-3 gap-6">
-          <div className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={javaScript}
               width={48}
@@ -24,8 +30,12 @@ export default function Frontend() {
               alt="javaScript"
             />
             <p>JavaScript</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={typescript}
               width={48}
@@ -34,8 +44,12 @@ export default function Frontend() {
               alt="typescript"
             />
             <p>Typescript</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Next}
               width={48}
@@ -44,8 +58,12 @@ export default function Frontend() {
               alt="Next js"
             />
             <p>Next js</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={React}
               width={48}
@@ -54,8 +72,12 @@ export default function Frontend() {
               alt="React"
             />
             <p>React</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Vite}
               width={48}
@@ -64,8 +86,12 @@ export default function Frontend() {
               alt="Vite"
             />
             <p>Vite</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Tailwindcss}
               width={48}
@@ -74,8 +100,12 @@ export default function Frontend() {
               alt="Tailwindcss"
             />
             <p>Tailwindcss</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Bootstrap}
               width={48}
@@ -84,8 +114,12 @@ export default function Frontend() {
               alt="Bootstrap"
             />
             <p>Bootstrap</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Css}
               width={48}
@@ -94,8 +128,12 @@ export default function Frontend() {
               alt="Css"
             />
             <p>Css</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Html}
               width={48}
@@ -104,7 +142,7 @@ export default function Frontend() {
               alt="Html"
             />
             <p>Html</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

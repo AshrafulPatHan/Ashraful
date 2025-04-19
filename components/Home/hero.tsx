@@ -6,6 +6,7 @@ import linkedinLogo  from "@/assets/image/logo/icons8-linkedin.svg";
 import GithubLogo  from "@/assets/image/logo/github.png";
 import Ashraful  from "@/assets/image/ashraful.png";
 import { Typewriter } from 'react-simple-typewriter';
+import * as motion from "motion/react-client"
 
 export default function Hero() {
    return(
@@ -96,11 +97,15 @@ export default function Hero() {
                </button>
                </a>
             </div>
-            <div>
+            <motion.div
+               whileHover={{ scale: 1.05 }}
+               whileTap={{ scale: 0.8 }}
+               transition={{ duration: 0.4 }}
+            >
                <Image src={Ashraful} alt="Ashraful Pathan" 
                className="rounded-full w-[382px] justify-center bg-white "
                />
-            </div>  
+            </motion.div>  
          </div>
       </div>
    )

@@ -4,6 +4,7 @@ import Express from "@/assets/image/logo/express.svg";
 import MongoDB from "@/assets/image/logo/mongodb.svg";
 import JWT from "@/assets/image/logo/icons8-jwt.svg";
 import Firebase from "@/assets/image/logo/icons8-firebase.svg";
+import * as motion from "motion/react-client"
 
 
 export default function Backend() {
@@ -12,7 +13,11 @@ export default function Backend() {
       <div className="w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Backend</h4>
         <div className="grid grid-cols-3 gap-6">
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Node}
               width={48}
@@ -21,8 +26,12 @@ export default function Backend() {
               alt="Node"
             />
             <p>Node js</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Express}
               width={48}
@@ -31,8 +40,12 @@ export default function Backend() {
               alt="Express"
             />
             <p>Express js</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={MongoDB}
               width={48}
@@ -41,8 +54,12 @@ export default function Backend() {
               alt="MongoDB"
             />
             <p>MongoDB</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Firebase}
               width={48}
@@ -51,8 +68,12 @@ export default function Backend() {
               alt="Firebase"
             />
             <p>Firebase</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={JWT}
               width={48}
@@ -61,7 +82,7 @@ export default function Backend() {
               alt="JWT"
             />
             <p>JWT</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

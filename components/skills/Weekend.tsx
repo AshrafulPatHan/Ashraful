@@ -7,6 +7,7 @@ import Postman from "@/assets/image/logo/icons8-postman-inc-96.png";
 import python from "@/assets/image/logo/icons8-python.svg";
 import redux from "@/assets/image/logo/icons8-redux-96.png";
 import fabric from "@/assets/image/logo/fabric.png";
+import * as motion from "motion/react-client"
 
 
 export default function Weekend() {
@@ -15,7 +16,11 @@ export default function Weekend() {
       <div className="w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Other</h4>
         <div className="grid grid-cols-3 gap-6">
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Git}
               width={48}
@@ -24,8 +29,12 @@ export default function Weekend() {
               alt="Git"
             />
             <p>Git</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={GitHub}
               width={48}
@@ -34,8 +43,12 @@ export default function Weekend() {
               alt="GitHub"
             />
             <p>GitHub</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Figma}
               width={48}
@@ -44,8 +57,12 @@ export default function Weekend() {
               alt="Figma"
             />
             <p>Figma</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Linux}
               width={48}
@@ -54,8 +71,12 @@ export default function Weekend() {
               alt="Linux"
             />
             <p>Linux</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Postman}
               width={48}
@@ -64,8 +85,12 @@ export default function Weekend() {
               alt="Postman"
             />
             <p>Postman</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={python}
               width={48}
@@ -74,8 +99,12 @@ export default function Weekend() {
               alt="python"
             />
             <p>Python</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={redux}
               width={48}
@@ -84,8 +113,12 @@ export default function Weekend() {
               alt="redux"
             />
             <p>Redux</p>
-          </div>
-          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          </motion.div>
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={fabric}
               width={48}
@@ -94,7 +127,7 @@ export default function Weekend() {
               alt="fabric"
             />
             <p>Fabric</p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
