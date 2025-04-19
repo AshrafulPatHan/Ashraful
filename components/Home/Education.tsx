@@ -2,6 +2,8 @@ import Image from "next/image";
 import tolaram from "@/assets/image/tolaram.png";
 import Programming from "@/assets/image/programing-hero.jpeg";
 import * as motion from "motion/react-client"
+import { Avatar, Box, Flex, Heading, HoverCard, Strong, Text } from "@radix-ui/themes";
+import Link from "next/link";
 
 
 export default function Education() {
@@ -30,7 +32,8 @@ export default function Education() {
                   <div className="flex flex-col gap-2">
                      <h4 className="text-green-400">Grade: Pending GPA</h4>
                      <p>
-                        I am currently studying in the Science Department at Government Tolaram College in Bandar, Narayanganj, Bangladesh. I achieved a GPA of 4.94 in my SSC exams. My dream is to study Physics after completing my HSC, as I have a deep interest in the subject. I have been passionate about programming since I was 14 years old, and it has always been my favorite hobby. I enjoy learning and exploring new things in both science and technology.
+                        I am currently studying in the Science Department at Government Tolaram College in Bandar, Narayanganj, Bangladesh. I achieved a GPA of 4.94 in my SSC
+                        exams. My dream is to study Physics after completing my HSC, as I have a deep interest in the subject. I have been passionate about programming since I was 14 years old, and it has always been my favorite hobby. I enjoy learning and exploring new things in both science and technology.
                      </p>
                   </div>
                </motion.div>
@@ -53,7 +56,7 @@ export default function Education() {
                   <div className="flex flex-col gap-2">
                      <h4 className="text-green-400">course is completed with certificate</h4>
                      <p>
-                     I found an amazing course on Programming Hero (Batch 10, 2024-2025). I learned React.js, Next.js, JavaScript, HTML, CSS, and Tailwind CSS. The course is really great, and the mentor, Jhankar Mahbub, is an excellent trainer. He explains everything clearly, making complex topics easy to understand. The support team is also fantastic, offering 24/7 assistance whenever needed. This course is a perfect choice for anyone who wants to dive into web development with hands-on experience!
+                        I found an amazing course on Programming Hero (Batch 10, 2024-2025). I learned React.js, Next.js, JavaScript, HTML, CSS, and Tailwind CSS. The course is really great, and the mentor, Jhankar Mahbub, is an excellent trainer. He explains everything clearly, making complex topics easy to understand. The support team is also fantastic, offering 24/7 assistance whenever needed. This course is a perfect choice for anyone who wants to dive into web development with hands-on experience!
                      </p>
                      <p>
                         I give the course 5 ster .I learn many thing from this course
