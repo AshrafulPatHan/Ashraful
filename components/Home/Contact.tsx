@@ -3,7 +3,7 @@ import ContactImg from '@/assets/image/contace.png'
 
 export default function Contact(){
    return(
-      <div className="mb-28">
+      <div className="font-Cinzel h-auto  p-10 pb-20 bg-gradient-to-r from-gray-900 to-gray-950 text-white">
          <div className="flex flex-col items-center">
             <p className=" text-[16px] text-[#6B7280] ">Contact</p>
             <h2 className="font-bold text-[36px] mb-6 ">CONTACT WITH ME</h2>

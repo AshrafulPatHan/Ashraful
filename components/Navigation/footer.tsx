@@ -6,7 +6,7 @@ import GithubLogo  from "@/assets/image/logo/github.png";
 
 export default function Footer() {
    return(
-      <div className="font-Cinzel h-auto  p-10 bg-gradient-to-r from-[#302f2f] to-[#0f0f0f]">
+      <div className="font-Cinzel h-auto  p-10 bg-gradient-to-r from-black via-gray-900 to-gray-950 backdrop-blur-md ">
          <div className="flex flex-col items-center gap-4 py-12 text-white">
             <h4 className="font-bold text-2xl ">Ashraful Pathan</h4>
             <div className="flex flex-row items-center gap-6 text-xl font-semibold">

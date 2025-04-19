@@ -4,8 +4,8 @@ import Logo from "@/assets/image/logo.svg";
 
 export default function Navbar() {
    return(
-      <div>
-         <div className="flex flex-row items-center justify-between px-8 pt-2 ">
+      <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 backdrop-blur-md sticky top-0 z-50 px-8 py-2 ">
+         <div className="flex flex-row items-center justify-between  text-white   ">
             <div className="flex flex-row items-center gap-2">
                <Image src={Logo} alt="logo" width={40}  />
                <h3 className="text-xl font-bold">Ashraful pathan</h3>

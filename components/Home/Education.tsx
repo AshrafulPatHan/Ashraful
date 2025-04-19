@@ -4,9 +4,9 @@ import tolaram from "@/assets/image/tolaram.png";
 
 export default function Education() {
    return(
-      <div>
+      <div className="py-16  bg-gradient-to-b from-gray-900 to-gray-900 text-white">
          <div className="flex flex-col items-center">
-            <h2 className="text-[30px] font-bold mb-4  ">Education and Training</h2>
+            <h2 className="text-[30px] font-bold mb-1  ">Education and Training</h2>
             <p className="text-lg font-medium text-[#9CA3AF] mb-12 ">My education has been a journey of self-discovery and growth. Here are my educational details.</p>
             <div>
                <div className="flex flex-col gap-4 w-[900px] p-6 bg-[#030712] text-white rounded-lg  ">

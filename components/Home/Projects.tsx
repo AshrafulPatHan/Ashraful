@@ -7,10 +7,11 @@ import { Badge, Button } from "@radix-ui/themes";
 
 export default function Projects() {
    return(
-      <div className="flex flex-col items-center ">
+      <div className="flex flex-col items-center 
+      py-16  bg-gradient-to-r from-gray-900 to-gray-950 text-white">
          <div>
             <h2 className="text-[30px] font-bold text-center ">My Best Work</h2>
-            <p className="text-xl font-bold text-center text-[#F87171] ">Explore My Projects and work</p>
+            <p className="text-xl font-bold text-center text-[#F87171] mb-6 ">Explore My Projects and work</p>
             <div className="flex flex-row items-center gap-10">
                <div className="w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
                   <Image src={AsumGamer} alt="image" className="w-[362px] h-[196px] rounded-lg object-cover  " />

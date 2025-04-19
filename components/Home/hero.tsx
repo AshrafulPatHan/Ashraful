@@ -7,7 +7,8 @@ import Ashraful  from "@/assets/image/ashraful.jpeg";
 
 export default function Hero() {
    return(
-      <div className="mt-[124px] ">
+      <div className=" font-Cinzel py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
+       px-4 pt-20 ">
          <div className="flex flex-row items-start gap-[150px] justify-center">
             <div className="w-[640px] ">
                <p className="text-sm font-medium text-[#60A5FA] ">Howrah!</p>
