@@ -33,7 +33,7 @@ export default function Home() {
       radius={[5, 19]}
       />} 
 
-      <Navbar toggleSnow={() => setSnowfall(!snowfall)} /> {/* pass toggle function */}
+      <Navbar toggleSnow={() => setSnowfall(!snowfall)} />
       <div id="home">
         <Hero />
       </div>

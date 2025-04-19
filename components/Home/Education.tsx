@@ -2,8 +2,7 @@ import Image from "next/image";
 import tolaram from "@/assets/image/tolaram.png";
 import Programming from "@/assets/image/programing-hero.jpeg";
 import * as motion from "motion/react-client"
-import { Avatar, Box, Flex, Heading, HoverCard, Strong, Text } from "@radix-ui/themes";
-import Link from "next/link";
+
 
 
 export default function Education() {
