@@ -32,8 +32,8 @@ export default function Hero() {
                <p className="w-[80vw] md:w-auto text-center md:text-start">
                Hi, I am Ashraful Pathan — a 17-year-old React.js Developer.
                With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and 
-               I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I&apos;m skilled in both JavaScript and 
-               TypeScript, and I have also worked with Next.js and Python. I&apos;m passionate about learning, creating, and bringing ideas 
+               I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I am skilled in both JavaScript and 
+               TypeScript, and I have also worked with Next.js and Python. I am passionate about learning, creating, and bringing ideas 
                to life through clean and functional code.
                </p>
                <div className="flex flex-row items-center gap-3 mt-7">
