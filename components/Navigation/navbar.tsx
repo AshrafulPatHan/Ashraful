@@ -43,15 +43,16 @@ export default function Navbar({ toggleSnow }: Props) {
                         </Button>
                      </DropdownMenu.Trigger>
                      <DropdownMenu.Content >
-                        <DropdownMenu.Item >HOME</DropdownMenu.Item>
-                        <DropdownMenu.Item >SKILLS</DropdownMenu.Item>
-                        <DropdownMenu.Item >PROJECTS</DropdownMenu.Item>
-                        <DropdownMenu.Item >EDUCATION</DropdownMenu.Item>
-                        <DropdownMenu.Item >CONTACT</DropdownMenu.Item>
+                        <DropdownMenu.Item ><Link href='#home'>HOME</Link> </DropdownMenu.Item>
+                        <DropdownMenu.Item ><Link href='#skills'>SKILLS</Link></DropdownMenu.Item>
+                        <DropdownMenu.Item ><Link href='#projects'>PROJECTS</Link></DropdownMenu.Item>
+                        <DropdownMenu.Item ><Link href='#education'>EDUCATION</Link></DropdownMenu.Item>
+                        <DropdownMenu.Item ><Link href='#contact'>CONTACT</Link></DropdownMenu.Item>
 
                         <DropdownMenu.Separator />
                         <DropdownMenu.Item >
-                           Snowfall
+                           <button onClick={toggleSnow}>Snowfall</button>
+                           
                         </DropdownMenu.Item>
                      </DropdownMenu.Content>
                   </DropdownMenu.Root>
