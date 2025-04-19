@@ -4,6 +4,7 @@ import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import Providers from "@/redux/Provider";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
         <Providers>
-          <Theme>{children}</Theme>
+          <Theme>
+            <Toaster position="top-center" />
+            {children}
+          </Theme>
         </Providers>
       </body>
     </html>
