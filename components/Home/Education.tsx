@@ -29,8 +29,9 @@ export default function Education() {
                   </div>
                   <div className="flex flex-col gap-2">
                      <h4 className="text-green-400">Grade: Pending GPA</h4>
-                     <p>Currently pursuing a Diploma in Engineering in Computer Science and Technology at Bhola Polytechnic Institute. I have successfully completed 6 out of 8 semesters, gaining expertise in courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Microcontroller Programming, and Sensor Technologies. Additionally, I am proficient in tools like MS Word and Excel.</p>
-                     <p>As an active member of the Target Programmer Bhola Polytechnic Institute, I collaborate on innovative projects with a team of skilled developers, enhancing my technical and teamwork skills.</p>
+                     <p>
+                        I am currently studying in the Science Department at Government Tolaram College in Bandar, Narayanganj, Bangladesh. I achieved a GPA of 4.94 in my SSC exams. My dream is to study Physics after completing my HSC, as I have a deep interest in the subject. I have been passionate about programming since I was 14 years old, and it has always been my favorite hobby. I enjoy learning and exploring new things in both science and technology.
+                     </p>
                   </div>
                </motion.div>
                <motion.div
