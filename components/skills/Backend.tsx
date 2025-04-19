@@ -17,7 +17,7 @@ export default function Backend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Node}
               width={48}
@@ -31,7 +31,7 @@ export default function Backend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Express}
               width={48}
@@ -45,7 +45,7 @@ export default function Backend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={MongoDB}
               width={48}
@@ -59,7 +59,7 @@ export default function Backend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Firebase}
               width={48}
@@ -73,7 +73,7 @@ export default function Backend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={JWT}
               width={48}

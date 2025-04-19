@@ -21,7 +21,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={javaScript}
               width={48}
@@ -35,7 +35,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={typescript}
               width={48}
@@ -49,7 +49,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Next}
               width={48}
@@ -63,7 +63,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={React}
               width={48}
@@ -77,7 +77,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Vite}
               width={48}
@@ -91,7 +91,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Tailwindcss}
               width={48}
@@ -105,7 +105,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Bootstrap}
               width={48}
@@ -119,7 +119,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Css}
               width={48}
@@ -133,7 +133,7 @@ export default function Frontend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Html}
               width={48}

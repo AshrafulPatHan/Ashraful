@@ -20,7 +20,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Git}
               width={48}
@@ -34,7 +34,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={GitHub}
               width={48}
@@ -48,7 +48,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Figma}
               width={48}
@@ -62,7 +62,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Linux}
               width={48}
@@ -76,7 +76,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={Postman}
               width={48}
@@ -90,7 +90,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={python}
               width={48}
@@ -104,7 +104,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={redux}
               width={48}
@@ -118,7 +118,7 @@ export default function Weekend() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
           transition={{ duration: 0.2 }}
-          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={fabric}
               width={48}
