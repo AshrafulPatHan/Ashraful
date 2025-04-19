@@ -3,17 +3,17 @@ import facebookLogo  from "@/assets/image/logo/icons8-facebook.svg";
 import twitterLogo  from "@/assets/image/logo/bird.svg";
 import linkedinLogo  from "@/assets/image/logo/icons8-linkedin.svg";
 import GithubLogo  from "@/assets/image/logo/github.png";
-import Ashraful  from "@/assets/image/ashraful.jpeg";
+import Ashraful  from "@/assets/image/ashraful.png";
 
 export default function Hero() {
    return(
       <div className=" font-Cinzel py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
        px-4 pt-20 ">
-         <div className="flex flex-col md:flex-row md:items-start gap-1 xl:gap-[140px] justify-center">
-            <div className="w-[640px] flex flex-col items-center md:items-start ">
+         <div className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center">
+            <div className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
                <p className="text-sm font-medium text-[#60A5FA] ">Howrah!</p>
-               <h1 className="md:text-[38px] xl:text-[48px] font-bold ">I am Ashraful Pathan</h1>
-               <h3 className="md:text-2xl xl:text-[30px] font-bold ">A Frontend Developer</h3>
+               <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center ">I am Ashraful Pathan</h1>
+               <h3 className="text-2xl xl:text-[30px] font-medium sm:font-bold ">A Frontend Developer</h3>
                <p className="w-[80vw] md:w-auto text-center md:text-start">
                   I ma junior frontend developer of a react js developer
                   I mack dynamic and responsive website
@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
             <div>
                <Image src={Ashraful} alt="Ashraful Pathan" 
-               className="rounded-full w-[382px] "
+               className="rounded-full w-[382px] justify-center bg-white "
                />
             </div>  
          </div>

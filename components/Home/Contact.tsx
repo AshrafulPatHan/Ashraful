@@ -20,22 +20,25 @@ export default function Contact(){
               alt="Contact"
               className="w-full h-44 mb-4 object-cover rounded-lg" 
             />
-            <h2 className="text-lg font-semibold text-gray-500">
-              Phone: <span className="text-gray-300">+8801614871378</span>
-            </h2>
-            <h2 className="text-lg font-semibold text-gray-500">
-              Or, Phone: <span className="text-gray-300">+8801568706037</span>
-            </h2>
-            <h2 className="text-lg font-semibold text-gray-500">
-              E-mail:{" "}
-              <span className="text-gray-300">ashrafulPathan3927@gmail.com</span>
-            </h2>
-            <h2 className="text-lg font-semibold text-gray-500">
-              Location:{" "}
-              <span className="text-gray-300">
-               Bangladesh, Narayanganj 
-              </span>
-            </h2>
+            <div className=" lg:flex lg:flex-col">
+              <h2 className="text-lg font-semibold text-gray-500">
+                Phone: <span className="text-gray-300 text-[16px] ">+8801614871378</span>
+              </h2>
+              <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
+                Or, Phone: <span className="text-gray-300 text-[16px]">+8801568706037</span>
+              </h2>
+              <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
+                E-mail:{" "}
+                <span className="text-gray-300 text-[14px] sm:text-[16px]">ashrafulPathan3927@gmail.com</span>
+              </h2>
+              <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
+                Location:{" "}
+                <span className="text-gray-300 text-[16px]">
+                Bangladesh, Narayanganj 
+                </span>
+              </h2>
+            </div>
+            
           </div>
 
           {/* Massage */}

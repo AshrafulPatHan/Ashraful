@@ -12,10 +12,10 @@ import Css from "@/assets/image/logo/icons8-css3.svg";
 export default function Frontend() {
   return (
     <div>
-      <div className="w-[405px] h-[452px] p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
+      <div className=" w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Frontend</h4>
         <div className="grid grid-cols-3 gap-6">
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={javaScript}
               width={48}
@@ -25,7 +25,7 @@ export default function Frontend() {
             />
             <p>JavaScript</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={typescript}
               width={48}
@@ -35,7 +35,7 @@ export default function Frontend() {
             />
             <p>Typescript</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Next}
               width={48}
@@ -45,7 +45,7 @@ export default function Frontend() {
             />
             <p>Next js</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
               src={React}
               width={48}
@@ -55,7 +55,7 @@ export default function Frontend() {
             />
             <p>React</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Vite}
               width={48}
@@ -65,7 +65,7 @@ export default function Frontend() {
             />
             <p>Vite</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Tailwindcss}
               width={48}
@@ -75,7 +75,7 @@ export default function Frontend() {
             />
             <p>Tailwindcss</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Bootstrap}
               width={48}
@@ -85,7 +85,7 @@ export default function Frontend() {
             />
             <p>Bootstrap</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Css}
               width={48}
@@ -95,7 +95,7 @@ export default function Frontend() {
             />
             <p>Css</p>
           </div>
-          <div className="w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
+          <div className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] flex flex-col items-center  rounded-lg text-white ">
             <Image
               src={Html}
               width={48}

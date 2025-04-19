@@ -12,7 +12,8 @@ export default function Footer() {
             <div className="flex flex-row items-center gap-6 text-xl font-semibold">
                <p>Blog</p>
                <p>projects</p>
-               <p>Admin Panel</p>
+               <p className="hidden sm:flex">Admin Panel</p>
+               <p className="sm:hidden ">Admin </p>
                <p>code</p>
             </div>
             <div className="flex flex-row items-center gap-3">
@@ -59,7 +60,7 @@ export default function Footer() {
                      />
                   </a>
             </div>
-            <p className="text-sm mt-3 " > © 2025 Ashraful Pathan. All rights reserved.</p>
+            <p className="text-sm mt-3 text-center " > © 2025 Ashraful Pathan. All rights reserved.</p>
          </div>
       </div>
    )

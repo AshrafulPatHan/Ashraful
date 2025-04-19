@@ -12,9 +12,9 @@ export default function Projects() {
          <div>
             <h2 className="text-[30px] font-bold text-center ">My Best Work</h2>
             <p className="text-xl font-bold text-center text-[#F87171] mb-6 ">Explore My Projects and work</p>
-            <div className="flex flex-row items-center gap-10">
-               <div className="w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
-                  <Image src={AsumGamer} alt="image" className="w-[362px] h-[196px] rounded-lg object-cover  " />
+            <div className="flex flex-col xl:flex-row items-center gap-10">
+               <div className="w-[100vw] sm:w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
+                  <Image src={AsumGamer} alt="image" className=" w-[362px] h-[196px] rounded-lg object-cover  " />
                   <div className=" grid grid-cols-4 gap-2 mt-3 mb-4">
                      <Badge size="2" color="cyan"><span className="text-white">React.js</span></Badge>
                      <Badge size="2" color="cyan"><span className="text-white">Node.js</span></Badge>
@@ -27,7 +27,7 @@ export default function Projects() {
                   </div>
                   <h4 className="text-white text-2xl font-semibold mb-2">Asum Gamer BD</h4>
                   <p className="text-[#D1D5DB] text-sm mb-4 ">A game review website</p>
-                  <div className="flex flex-row items-center gap-3 ">
+                  <div className="flex flex-row items-center gap-3  ">
                      <Button color="gray" variant="solid" >
                          <a href="https://github.com/AshrafulPatHan/Chill-Gamer" target="_blank"  className=" cursor-pointer">Client Repo</a>
                      </Button>
@@ -41,7 +41,7 @@ export default function Projects() {
                      </Button>
                   </div>
                </div>
-               <div className="w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
+               <div className="w-[100vw] sm:w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
                   <Image src={Techno} alt="image" className="w-[362px] h-[196px] rounded-lg object-cover  " />
                   <div className=" grid grid-cols-4 gap-2 mt-3 mb-4">
                      <Badge size="2" color="cyan"><span className="text-white">React.js</span></Badge>
@@ -68,7 +68,7 @@ export default function Projects() {
                      </Button>
                   </div>
                </div>
-               <div className="w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
+               <div className="w-[100vw] sm:w-[394px] h-[536px] p-4 bg-[#1F2937] rounded-lg  ">
                   <Image src={chillGamer} alt="image" className="w-[362px] h-[196px] rounded-lg object-cover  " />
                   <div className=" grid grid-cols-4 gap-2 mt-3 mb-4">
                      <Badge size="2" color="cyan"><span className="text-white">React.js</span></Badge>
