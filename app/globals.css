@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
 
-html{
-   scroll-behavior: smooth;
- }
- 
+:root {
+  font-family: var(--font-inter), sans-serif; 
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}

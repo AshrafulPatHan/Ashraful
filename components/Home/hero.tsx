@@ -9,7 +9,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 export default function Hero() {
    return(
-      <div className=" font-Cinzel py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
+      <div className="  py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
        px-4 pt-20 ">
          <div className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center">
             <div className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">

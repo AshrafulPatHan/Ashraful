@@ -5,7 +5,7 @@ export default function Contact(){
    return(
       <div
         id="contact"
-        className=" font-Cinzel h-auto  p-10 bg-gradient-to-r from-gray-900 to-gray-950"
+        className="  h-auto  p-10 bg-gradient-to-r from-gray-900 to-gray-950"
       >
         <div className="text-center mb-8">
           <p className="text-gray-500">Contact</p>

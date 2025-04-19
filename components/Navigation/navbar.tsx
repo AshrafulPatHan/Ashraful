@@ -28,9 +28,9 @@ export default function Navbar({ toggleSnow }: Props) {
                <div>
                   <button 
                   onClick={toggleSnow}
-                  className=" cursor-pointer sm:flex items-center gap-[2px] border border-blue-100 rounded-lg py-[1px] text-sm px-2 
+                  className=" cursor-pointer sm:flex items-center gap-[2px] border border-blue-100 rounded-lg py-[2px] text-sm px-2 
                   hover:bg-blue-600 transform-fill duration-500 hidden ">
-                     <Image src={snow} width={30} alt="Snow" />
+                     <Image src={snow} width={25} alt="Snow" />
                      Snowfall
                   </button>
                </div>
