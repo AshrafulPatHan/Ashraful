@@ -52,7 +52,6 @@ export default function Navbar({ toggleSnow }: Props) {
                         <DropdownMenu.Separator />
                         <DropdownMenu.Item >
                            <button onClick={toggleSnow}>Snowfall</button>
-                           
                         </DropdownMenu.Item>
                      </DropdownMenu.Content>
                   </DropdownMenu.Root>
