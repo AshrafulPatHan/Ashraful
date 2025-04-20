@@ -25,7 +25,7 @@ export default function Backend() {
               className="w-[48px] h-[48px] "
               alt="Node"
             />
-            <p>Node js</p>
+            <p>Node</p>
           </motion.div>
           <motion.div
           whileHover={{ scale: 1.1 }}
@@ -39,7 +39,7 @@ export default function Backend() {
               className="w-[48px] h-[48px] "
               alt="Express"
             />
-            <p>Express js</p>
+            <p>Express</p>
           </motion.div>
           <motion.div 
           whileHover={{ scale: 1.1 }}

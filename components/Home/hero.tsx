@@ -13,8 +13,12 @@ export default function Hero() {
       <div className="  py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
        px-4 pt-20 ">
          <div className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center">
-            <div className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
-               <p className="text-sm font-medium text-[#60A5FA] ">Yahoo!</p>
+            <motion.div 
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
+               <p className="text-sm font-medium text-[#60A5FA] ">Hello!</p>
                <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center ">Ashraful Pathan</h1>
                <h2 className="text-2xl xl:text-[30px] font-medium sm:font-bold ">
                   I am a {' '} 
@@ -96,7 +100,7 @@ export default function Hero() {
                   </span>
                </button>
                </a>
-            </div>
+            </motion.div>
             <motion.div
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.8 }}
