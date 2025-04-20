@@ -13,34 +13,33 @@ export default function Hero() {
       <div className="  py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white 
        px-4 pt-20 ">
          <div className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center">
-            <motion.div 
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
-            className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
+            <div className=" w-[90vw] md:w-[640px] flex flex-col items-center md:items-start ">
                <p className="text-sm font-medium text-[#60A5FA] ">Hello!</p>
-               <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center ">Ashraful Pathan</h1>
-               <h2 className="text-2xl xl:text-[30px] font-medium sm:font-bold ">
-                  I am a {' '} 
-                  <span className="text-blue-400">
-                     <Typewriter
-                        words={['React js Developer', 'Front-End Developer', 'Full-Stack Learner']}
-                        loop={true}
-                        cursor
-                        cursorStyle='|'
-                        typeSpeed={70}
-                        deleteSpeed={50}
-                        delaySpeed={1000}
-                     />
-                  </span>
-               </h2>
-               <p className="w-[80vw] md:w-auto text-center md:text-start">
-               Hi, I am Ashraful Pathan — a 17-year-old React.js Developer.
-               With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and 
-               I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I am skilled in both JavaScript and 
-               TypeScript, and I have also worked with Next.js and Python. I am passionate about learning, creating, and bringing ideas 
-               to life through clean and functional code.
-               </p>
+               <div 
+               >
+                  <h1 className=" text-[29px] sm:text-[38px] xl:text-[48px] font-bold text-center md:text-start ">Ashraful Pathan</h1>
+                  <h2 className="text-2xl xl:text-[30px] font-medium sm:font-bold text-center md:text-start">
+                     I am a {' '} 
+                     <span className="text-blue-400">
+                        <Typewriter
+                           words={['React js Developer', 'Front-End Developer', 'Full-Stack Learner']}
+                           loop={true}
+                           cursor
+                           cursorStyle='|'
+                           typeSpeed={70}
+                           deleteSpeed={50}
+                           delaySpeed={1000}
+                        />
+                     </span>
+                  </h2>
+                  <p className="w-[80vw] md:w-auto text-center md:text-start">
+                  Hi, I am Ashraful Pathan — a 17-year-old React.js Developer.
+                  With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and 
+                  I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I am skilled in both JavaScript and 
+                  TypeScript, and I have also worked with Next.js and Python. I am passionate about learning, creating, and bringing ideas 
+                  to life through clean and functional code.
+                  </p>
+               </div>
                <div className="flex flex-row items-center gap-3 mt-7">
                   <a href="https://github.com/AshrafulPatHan" 
                   target="_blank" 
@@ -100,7 +99,7 @@ export default function Hero() {
                   </span>
                </button>
                </a>
-            </motion.div>
+            </div>
             <motion.div
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.8 }}
