@@ -86,7 +86,7 @@ export default function Hero() {
                      </a>
                </div>
                <a href="https://drive.google.com/file/d/1hXyBnOTlmRnkEog0kuqLD24sGSryuJxo/view" target="_blank" >
-               <button className="py-2 w-40 h-16 px-6 mb-4 mt-6 bg-sky-700 hover:bg-sky-600 duration-300 text-white flex items-center 
+               <button className="py-2 w-40 h-14 px-6 mb-4 mt-6 bg-sky-700 hover:bg-sky-600 rounded-3xl duration-300 text-white flex items-center 
                   justify-center overflow-hidden hover:overflow-visible relative group cursor-pointer">
                   <svg viewBox="0 0 1024 1024" 
                   className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 
