@@ -31,7 +31,8 @@ export default function Contact() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto">
         {/* Left Side */}
-        <div className="flex flex-col space-y-4 p-6 bg-gray-950 shadow-lg rounded-lg">
+        <div data-aos="fade-right"
+        className="flex flex-col space-y-4 p-6 bg-gray-950 shadow-lg rounded-lg">
           <Image
             src={ContactImg}
             alt="Contact"
@@ -58,7 +59,11 @@ export default function Contact() {
         </div>
 
         {/* Message Form */}
-        <div className="lg:col-span-2 flex flex-col p-6 bg-gray-950 shadow-lg rounded-lg text-cyan-50 ">
+        <div 
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1300"
+        className="lg:col-span-2 flex flex-col p-6 bg-gray-950 shadow-lg rounded-lg text-cyan-50 ">
           <form ref={formRef} onSubmit={handelFormSubmit} className="space-y-3">
             <div>
               <label htmlFor="name" className="block text-gray-100">NAME</label>

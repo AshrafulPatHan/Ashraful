@@ -6,6 +6,7 @@ import { Theme } from "@radix-ui/themes";
 import Providers from "@/redux/Provider";
 import { Toaster } from "react-hot-toast";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
