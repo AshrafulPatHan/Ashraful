@@ -10,7 +10,10 @@ import * as motion from "motion/react-client"
 export default function Backend() {
   return (
     <div>
-      <div className="w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  ">
+      <motion.div className="w-[100vw] sm:w-[405px] h-[452px] p-2 sm:p-6 bg-[#030712] flex flex-col items-center rounded-xl  "
+      whileHover={{ y: -7 }}
+      transition={{ type: "spring", stiffness: 200, damping: 15 }}
+      >
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Backend</h4>
         <div className="grid grid-cols-3 gap-6">
           <motion.div 
@@ -84,7 +87,7 @@ export default function Backend() {
             <p>JWT</p>
           </motion.div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
