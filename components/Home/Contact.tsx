@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRef } from "react";
 import ContactImg from '@/assets/image/Contact.jpg';
 import toast from "react-hot-toast";
+import * as motion from "motion/react-client"
 
 export default function Contact() {
   // Use HTMLFormElement as the type for the ref
@@ -32,12 +33,17 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto">
         {/* Left Side */}
         <div data-aos="fade-right"
-        className="flex flex-col space-y-4 p-6 bg-gray-950 shadow-lg rounded-lg">
+        className="flex flex-col space-y-4 p-6 bg-gray-950 shadow-lg gap-4 rounded-lg">
+          <div className="relative group">
           <Image
             src={ContactImg}
             alt="Contact"
-            className="w-full h-44 mb-4 object-cover rounded-lg"
+            className="w-full h-44 rounded-lg object-cover cursor-pointer hover:blur-xs transition duration-300  "
           />
+            <p className="text-blue-700 font-bold absolute text-2xl top-[40%] left-[22%] hidden group-hover:flex transition duration-300">
+              Contact With Me
+            </p>
+          </div>
           <div className="lg:flex lg:flex-col">
             <h2 className="text-lg font-semibold text-gray-500">
               Phone: <span className="text-gray-300 text-[16px] ">+8801614871378</span>
