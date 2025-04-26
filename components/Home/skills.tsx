@@ -1,3 +1,4 @@
+import * as motion from "motion/react-client"
 import Frontend from "../skills/Frontend";
 import Backend from "../skills/Backend";
 import Weekend from "../skills/Weekend";
@@ -13,11 +14,32 @@ export default function Skills() {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
                {/* Frontend */}
-               <Frontend/>
+               <motion.div 
+               animate={{
+                  scale:1,
+               }}
+               transition={{}}
+               >
+                  <Frontend/>
+               </motion.div>
                {/* Backend */}
-               <Backend/>
+               <motion.div 
+               animate={{
+                  scale:1,
+               }}
+               transition={{}}
+               >
+                  <Backend/>
+               </motion.div>
                {/* weekend */}
-               <Weekend/>
+               <motion.div 
+               animate={{
+                  scale:1,
+               }}
+               transition={{}}
+               >
+                  <Weekend/>
+               </motion.div>
             </div>
          </div>
       </div>
