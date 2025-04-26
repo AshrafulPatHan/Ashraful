@@ -12,7 +12,7 @@ export default function Skills() {
       useEffect(() => {
          AOS.init({
            duration: 1600,
-           once: true,
+           once: false,
          });
        }, []);
    return(
