@@ -10,10 +10,11 @@ import { useEffect, useState } from "react";
 import Snowfall from "react-snowfall";
 import snowflake1 from '@/assets/image/icons/icons8-snowflake-50.png'
 import snowflake2 from '@/assets/image/icons/snowflake.png'
+import AboutMe from "@/components/Home/aboutme";
 
 
 export default function Home() {
-  const [snowfall, setSnowfall] = useState(false);
+  const [snowfall, setSnowfall] = useState(true);
   const [snowImages, setSnowImages] = useState<HTMLImageElement[]>([])
 
   useEffect(() => {
@@ -36,6 +37,9 @@ export default function Home() {
       <Navbar toggleSnow={() => setSnowfall(!snowfall)} />
       <div id="home">
         <Hero />
+      </div>
+      <div id="aboutme">
+        <AboutMe />
       </div>
       <div id="skills">
         <Skills />

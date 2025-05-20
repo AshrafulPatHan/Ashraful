@@ -19,6 +19,7 @@ export default function Navbar({ toggleSnow }: Props) {
             </Link>
             <div className="hidden lg:flex lg:flex-row items-center gap-4">
                <Link href='#home' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">HOME</Link>
+               <Link href='#aboutme' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">ABOUT ME</Link>
                <Link href='#skills' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">SKILLS</Link>
                <Link href='#projects' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">PROJECTS</Link>
                <Link href='#education' className="text-lg font-bold transition-all duration-500 hover:text-blue-600 cursor-pointer ">EDUCATION</Link>

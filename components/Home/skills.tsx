@@ -32,9 +32,13 @@ export default function Skills() {
                   <Backend/>
                </div>
                {/* weekend */}
-               <div data-aos="fade-up-left">
+               <motion.div 
+               initial={{ y: 100, x: 100, opacity: 0 }} 
+               animate={{ y: 0, x: 0, opacity: 1 }} 
+               transition={{ duration: 1, ease: "easeOut" }} 
+               >
                   <Weekend/>
-               </div>
+               </motion.div>
             </div>
          </div>
       </div>
