@@ -7,9 +7,36 @@ import { Badge, Button } from "@radix-ui/themes";
 import * as motion from "motion/react-client"
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Projects() {
+   // gasp animations
+     const cardRef = useRef(null);
+
+  useEffect(() => {
+    gsap.set(cardRef.current, {
+      rotationX: -90,
+      opacity: 0,
+      transformOrigin: "bottom center",
+    });
+
+    gsap.to(cardRef.current, {
+      rotationX: 0,
+      opacity: 1,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: cardRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
+   // animations for card
    useEffect(() => {
       AOS.init({
         duration: 1600,
@@ -60,7 +87,8 @@ export default function Projects() {
                      </div>
                   </motion.div>
                </div>
-               <div data-aos="flip-up">
+               {/* center card */}
+               <div ref={cardRef} >
                   <motion.div 
                   whileHover={{ y: -8 }}
                   transition={{ type: "spring", stiffness: 200, damping: 15 }}
