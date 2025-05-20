@@ -3,12 +3,41 @@ import * as motion from "motion/react-client"
 import Frontend from "../skills/Frontend";
 import Backend from "../skills/Backend";
 import Weekend from "../skills/Weekend";
-import { useEffect } from "react";
+import { useEffect , useRef } from "react";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Skills() {
+   // start animation
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      cardRef.current,
+      {
+        y: 100,
+        x: 100,
+        opacity: 0
+      },
+      {
+        y: 0,
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: cardRef.current,
+          start: 'top 80%', 
+          toggleActions: 'play none none none',
+        }
+      }
+    );
+  }, []);
+// effect
       useEffect(() => {
          AOS.init({
            duration: 1600,
@@ -32,13 +61,11 @@ export default function Skills() {
                   <Backend/>
                </div>
                {/* weekend */}
-               <motion.div 
-               initial={{ y: 100, x: 100, opacity: 0 }} 
-               animate={{ y: 0, x: 0, opacity: 1 }} 
-               transition={{ duration: 1, ease: "easeOut" }} 
+               <div 
+               ref={cardRef}
                >
                   <Weekend/>
-               </motion.div>
+               </div>
             </div>
          </div>
       </div>
