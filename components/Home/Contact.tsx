@@ -9,10 +9,33 @@ export default function Contact() {
   // Use HTMLFormElement as the type for the ref
   const formRef = useRef<HTMLFormElement>(null);
 
-  const handelFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handelFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const name:string = event.target.Name.value;
+    const email:string = event.target.email.value;
+    const subject:string = event.target.subject.value;
+    const message:string = event.target.message.value;
+    console.log(name,email,subject,message);
+    
+    // Collect all data
+    const Message = {name,email,subject,message};
 
-    toast.success("Message sent! 🎉");
+    fetch('https://ashraful-server.onrender.com/mail', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(Message),
+    })
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data);
+        toast.success("🥳 Your massage is successfully send! 🎉");
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        toast.error("⚠️ Your massage is not send! cake your internet");
+    });
 
     // clear the form if ref exists
     if (formRef.current) {
@@ -76,7 +99,7 @@ export default function Contact() {
               <label htmlFor="name" className="block text-gray-100">NAME</label>
               <input
                 type="text"
-                name="name"
+                name="Name"
                 required
                 placeholder="Enter Your Name"
                 className="w-full p-3 mt-2 bg-transparent border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
