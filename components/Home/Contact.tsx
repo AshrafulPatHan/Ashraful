@@ -11,10 +11,14 @@ export default function Contact() {
 
   const handelFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const name:string = event.target.Name.value;
-    const email:string = event.target.email.value;
-    const subject:string = event.target.subject.value;
-    const message:string = event.target.message.value;
+    
+    const form = event.target as HTMLFormElement;
+
+    const name = (form.elements.namedItem('Name') as HTMLInputElement).value;
+    const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+    const subject = (form.elements.namedItem('subject') as HTMLInputElement).value;
+    const message = (form.elements.namedItem('message') as HTMLInputElement).value;
+
     console.log(name,email,subject,message);
     
     // Collect all data

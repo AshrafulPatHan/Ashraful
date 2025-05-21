@@ -26,8 +26,7 @@ export default function Home() {
 
     setSnowImages([img1, img2]);
   }, []);
-  // start the server
-  
+
   return (
     <div>
       {snowfall && <Snowfall 
