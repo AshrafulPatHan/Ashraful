@@ -23,3 +23,25 @@ body {
   font-weight: 700;
   font-style: normal;
 } */
+
+
+/* Style 2 card aline */
+@media screen and (min-width:830px ) {
+  #skills-2Card{
+    flex-direction: row;
+    gap: 8px;
+  }
+  #project-2Card{
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+@media screen and (min-width:930px ) {
+  #skills-2Card{
+    gap: 32px;
+  }
+  #project-2Card{
+    gap: 32px;
+  }
+}
+

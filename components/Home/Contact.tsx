@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row justify-center gap-8 items-center md:items-start max-w-screen-xl mx-auto">
         {/* Left Side */}
         <div 
-        // data-aos="fade-right"
+        data-aos="fade-right"
         className="flex flex-col  p-6 bg-gray-950 shadow-lg gap-4 rounded-lg w-[98vw] sm:w-[400px] h-[500px] ">
           <div className="relative group">
           <Image
@@ -47,27 +47,27 @@ export default function Contact() {
           </div>
           <div className="lg:flex lg:flex-col">
             <h2 className="text-lg font-semibold text-gray-500">
-              Phone: <span className="text-gray-300 text-[16px] ">+8801614871378</span>
+              Phone: 
             </h2>
+              <p className="text-gray-300 text-[16px] ">+8801614871378</p>
             <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
-              Or, Phone: <span className="text-gray-300 text-[16px]">+8801568706037</span>
+              Or, Phone: 
             </h2>
+              <p className="text-gray-300 text-[16px]">+8801568706037</p>
             <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
-              E-mail:{" "}
-              <span className="text-gray-300 text-[12px] sm:text-[16px]">ashrafulPathan3927@gmail.com</span>
+              E-mail:
             </h2>
+              <p className="text-gray-300 text-[16px]">ashrafulPathan3927@gmail.com</p>
             <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
-              Location:{" "}
-              <span className="text-gray-300 text-[16px]">
-                Bangladesh, Narayanganj
-              </span>
+              Location:
             </h2>
+            <p className="text-gray-300 text-[16px]">Bangladesh, Narayanganj</p>
           </div>
         </div>
 
         {/* Message Form */}
         <div 
-        // data-aos="flip-left"
+        data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1300"
         className="lg:col-span-2 flex flex-col p-6 bg-gray-950 shadow-lg rounded-lg text-cyan-50 w-[98vw] sm:w-[90%] lg:w-[80%] xl:w-[60%] ">

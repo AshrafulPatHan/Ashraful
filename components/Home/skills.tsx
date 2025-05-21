@@ -29,18 +29,18 @@ export default function Skills() {
                Here are some of my skills on which I have been working on for the past 1 years.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-               {/* Frontend */}
-               <div data-aos="fade-up-right">
-                  <Frontend/>
-               </div>
-               {/* Backend */}
-               <div data-aos="fade-up">
-                  <Backend/>
+               <div className="flex flex-col gap-8 " id="skills-2Card">
+                  {/* Frontend */}
+                  <div data-aos="fade-up-right">
+                     <Frontend/>
+                  </div>
+                  {/* Backend */}
+                  <div data-aos="fade-up">
+                     <Backend/>
+                  </div>
                </div>
                {/* weekend */}
                <div 
-               // className="hidden"
-               // ref={cardRef}
                data-aos="fade-up-left"
                >
                   <Weekend/>
