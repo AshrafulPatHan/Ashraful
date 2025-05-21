@@ -12,32 +12,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Skills() {
-   // start animation
-  const cardRef = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      cardRef.current,
-      {
-        y: 100,
-        x: 100,
-        opacity: 0
-      },
-      {
-        y: 0,
-        x: 0,
-        opacity: 1,
-        duration: 1.5,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: cardRef.current,
-          start: 'top 80%', 
-          toggleActions: 'play none none none',
-        }
-      }
-    );
-  }, []);
-
 
 
 // effect
@@ -66,7 +40,8 @@ export default function Skills() {
                {/* weekend */}
                <div 
                // className="hidden"
-               ref={cardRef}
+               // ref={cardRef}
+               data-aos="fade-up-left"
                >
                   <Weekend/>
                </div>
