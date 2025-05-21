@@ -30,10 +30,11 @@ export default function Contact() {
         <h2 className="text-4xl font-bold text-white">CONTACT WITH ME</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center md:items-start max-w-screen-xl mx-auto">
         {/* Left Side */}
-        <div data-aos="fade-right"
-        className="flex flex-col space-y-4 p-6 bg-gray-950 shadow-lg gap-4 rounded-lg">
+        <div 
+        // data-aos="fade-right"
+        className="flex flex-col  p-6 bg-gray-950 shadow-lg gap-4 rounded-lg w-[90vw] sm:w-[400px] ">
           <div className="relative group">
           <Image
             src={ContactImg}
@@ -66,7 +67,7 @@ export default function Contact() {
 
         {/* Message Form */}
         <div 
-        data-aos="flip-left"
+        // data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1300"
         className="lg:col-span-2 flex flex-col p-6 bg-gray-950 shadow-lg rounded-lg text-cyan-50 ">

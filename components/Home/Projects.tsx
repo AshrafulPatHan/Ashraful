@@ -14,28 +14,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Projects() {
-   // gasp animations
-     const cardRef = useRef(null);
 
-  useEffect(() => {
-    gsap.set(cardRef.current, {
-      rotationX: -90,
-      opacity: 0,
-      transformOrigin: "bottom center",
-    });
-
-    gsap.to(cardRef.current, {
-      rotationX: 0,
-      opacity: 1,
-      duration: 1,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: cardRef.current,
-        start: "top 80%",
-        toggleActions: "play none none none",
-      },
-    });
-  }, []);
    // animations for card
    useEffect(() => {
       AOS.init({
@@ -88,7 +67,7 @@ export default function Projects() {
                   </motion.div>
                </div>
                {/* center card */}
-               <div ref={cardRef} >
+               <div data-aos="flip-up" >
                   <motion.div 
                   whileHover={{ y: -8 }}
                   transition={{ type: "spring", stiffness: 200, damping: 15 }}

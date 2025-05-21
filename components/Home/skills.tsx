@@ -37,6 +37,9 @@ export default function Skills() {
       }
     );
   }, []);
+
+
+
 // effect
       useEffect(() => {
          AOS.init({
@@ -45,8 +48,8 @@ export default function Skills() {
          });
        }, []);
    return(
-      <div className="py-16 px-4 bg-gradient-to-r from-gray-900 to-gray-950 text-white">
-         <div className="flex flex-col items-center ">
+      <div className="py-16 px-4 bg-gradient-to-r from-gray-900 to-gray-950 text-white max-w-screen overflow-hidden ">
+         <div className="flex flex-col items-center  ">
             <h2 className="text-[36px] font-bold mb-3 ">My Skills</h2>
             <p className="text-xl font-bold text-[#854CE6] mb-9 mt-2 w-[90vw] sm:w-[500px] text-center ">
                Here are some of my skills on which I have been working on for the past 1 years.
@@ -62,6 +65,7 @@ export default function Skills() {
                </div>
                {/* weekend */}
                <div 
+               // className="hidden"
                ref={cardRef}
                >
                   <Weekend/>
