@@ -14,7 +14,7 @@ import AboutMe from "@/components/Home/aboutme";
 
 
 export default function Home() {
-  const [snowfall, setSnowfall] = useState(false);
+  const [snowfall, setSnowfall] = useState(true);
   const [snowImages, setSnowImages] = useState<HTMLImageElement[]>([])
 
   useEffect(() => {
