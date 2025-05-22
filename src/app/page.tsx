@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Contact from "@/components/Home/Contact";
 import Education from "@/components/Home/Education";
 import Hero from "@/components/Home/hero";
