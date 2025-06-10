@@ -12,7 +12,7 @@ export default function AboutMe() {
             </div>
             <div className="lg:w-[600px] w-[90vw] ">
                <p className="lg:mt-[90px] mt-0 text-center lg:text-start ">
-                  Hi, I am Ashraful Pathan — a 17-year-old React.js Developer. With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I am skilled in both JavaScript and TypeScript, and I have also worked with Next.js and Python. I am passionate about learning, creating, and bringing ideas to life through clean and functional code.
+                  Hi, I am Ashraful Pathan — a React.js Developer. With over a year of hands-on experience, I specialize in building dynamic and responsive web applications using React.js, and I amm also confident working on the backend with Node.js, Express.js, and MongoDB. I am skilled in both JavaScript and TypeScript, and I have also worked with Next.js and Python. I am passionate about learning, creating, and bringing ideas to life through clean and functional code.
                </p>
             </div>
          </div>
