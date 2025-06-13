@@ -11,7 +11,7 @@ type Props = {
 
 export default function Navbar({ toggleSnow }: Props) {
    return(
-      <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 backdrop-blur-lg sticky top-0 z-50 px-8 py-2 ">
+      <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 backdrop-blur-lg sticky top-0 z-50 px-8 py-2 max-w-screen overflow-hidden ">
          <div className="flex flex-row items-center justify-between  text-white ">
             <Link href='/' className="flex flex-row items-center gap-2 cursor-pointer">
                <Image src={Logo} alt="logo" width={40}  />

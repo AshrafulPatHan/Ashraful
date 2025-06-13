@@ -7,7 +7,7 @@ import * as motion from "motion/react-client"
 
 export default function Education() {
    return(
-      <div className="py-20  bg-gradient-to-b from-gray-900 to-gray-900 text-white">
+      <div className="py-20  bg-gradient-to-b from-gray-900 to-gray-900 text-white max-w-screen overflow-hidden">
          <div className="flex flex-col items-center">
             <h2 className="text-[30px] font-bold mb-1  ">Education and Training</h2>
             <p className="text-lg font-medium text-[#9CA3AF] mb-12  text-center">My education has been a journey of self-discovery and growth. Here are my educational details.</p>

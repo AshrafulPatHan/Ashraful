@@ -4,7 +4,7 @@ import Photo from "@/assets/image/aboutme.jpg";
 
 export default function AboutMe() {
    return(
-      <div className="h-auto py-20 bg-gradient-to-b from-gray-900 to-gray-900 text-amber-50">
+      <div className="h-auto py-20 bg-gradient-to-b from-gray-900 to-gray-900 text-amber-50 max-w-screen overflow-hidden">
          <h2 className="text-center mb-1 text-4xl font-bold">About Me</h2>
          <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-4 lg:gap-[70px] ">
             <div className=" ">
