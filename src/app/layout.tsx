@@ -23,9 +23,44 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ashraful Pathan",
-  description: "Ashraful Pathan A Front-End Developer",
+  title: "Ashraful Pathan | MERN Stack & React Developer",
+  description:
+    "Hi, I am Ashraful Pathan — a MERN Stack Developer skilled in React.js, Node.js, Express.js, and MongoDB. I build dynamic and responsive web applications.",
+  keywords: [
+    "Ashraful Pathan",
+    "MERN Stack Developer",
+    "React Developer",
+    "JavaScript Developer",
+    "Frontend Developer",
+    "Web Developer Bangladesh",
+    "Portfolio of Ashraful",
+    "Next.js Developer",
+    "Node.js Developer",
+  ],
+  authors: [{ name: "Ashraful Pathan", url: "https://ashraful.top" }],
+  openGraph: {
+    title: "Ashraful Pathan | MERN Stack Developer",
+    description:
+      "MERN Stack developer portfolio of Ashraful Pathan — specialized in React, Node.js, Express, MongoDB, and TypeScript. Clean, functional, and professional web development.",
+    url: "https://ashraful.top",
+    siteName: "Ashraful Pathan",
+    images: [
+      {
+        url: "https://i.ibb.co/k6DbSRLN/web.png",
+        width: 1200,
+        height: 630,
+        alt: "Ashraful Pathan Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://ashraful.top",
+  },
+  robots: "index, follow",
 };
+
 
 export default function RootLayout({
   children,
