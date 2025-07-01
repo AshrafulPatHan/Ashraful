@@ -22,7 +22,7 @@ export default function Hero() {
                      I am {' '} 
                      <span className="text-blue-400">
                         <Typewriter
-                           words={['React js Developer', 'Front-End Developer', 'Full-Stack Learner']}
+                           words={['MernStack Developer', 'Front-End Developer', 'Full-Stack Learner']}
                            loop={true}
                            cursor
                            cursorStyle='|'
