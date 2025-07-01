@@ -7,6 +7,7 @@ import Postman from "@/assets/image/logo/icons8-postman-inc-96.png";
 import python from "@/assets/image/logo/icons8-python.svg";
 import redux from "@/assets/image/logo/icons8-redux-96.png";
 import fabric from "@/assets/image/logo/fabric.png";
+import Flask from "@/assets/image/logo/flask-seeklogo.svg";
 import * as motion from "motion/react-client"
 
 
@@ -33,6 +34,7 @@ export default function Weekend() {
             />
             <p>Git</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -47,6 +49,7 @@ export default function Weekend() {
             />
             <p>GitHub</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -61,6 +64,7 @@ export default function Weekend() {
             />
             <p>Figma</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -75,6 +79,7 @@ export default function Weekend() {
             />
             <p>Linux</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -89,6 +94,7 @@ export default function Weekend() {
             />
             <p>Postman</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -103,6 +109,7 @@ export default function Weekend() {
             />
             <p>Python</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -117,6 +124,7 @@ export default function Weekend() {
             />
             <p>Redux</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -130,6 +138,21 @@ export default function Weekend() {
               alt="fabric"
             />
             <p>Fabric</p>
+          </motion.div>
+          
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
+            <Image
+              src={Flask}
+              width={48}
+              height={48}
+              className="w-[48px] h-[48px] "
+              alt="fabric"
+            />
+            <p>Flask</p>
           </motion.div>
         </div>
       </motion.div>

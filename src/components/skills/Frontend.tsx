@@ -20,20 +20,6 @@ export default function Frontend() {
       >
         <h4 className="text-[#60A5FA] text-2xl font-bold mb-3">Frontend</h4>
         <div className="grid grid-cols-3 gap-6">
-          <motion.div 
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.8 }}
-          transition={{ duration: 0.2 }}
-          className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
-            <Image
-              src={javaScript}
-              width={48}
-              height={48}
-              className="w-[48px] h-[48px] "
-              alt="javaScript"
-            />
-            <p>JavaScript</p>
-          </motion.div>
           <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -48,6 +34,22 @@ export default function Frontend() {
             />
             <p>Typescript</p>
           </motion.div>
+
+          <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.8 }}
+          transition={{ duration: 0.2 }}
+          className=" w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center  rounded-lg text-white ">
+            <Image
+              src={javaScript}
+              width={48}
+              height={48}
+              className="w-[48px] h-[48px] "
+              alt="javaScript"
+            />
+            <p>JavaScript</p>
+          </motion.div>
+
           <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -62,6 +64,7 @@ export default function Frontend() {
             />
             <p>Next js</p>
           </motion.div>
+
           <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -76,6 +79,7 @@ export default function Frontend() {
             />
             <p>React</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -90,6 +94,7 @@ export default function Frontend() {
             />
             <p>Vite</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -104,6 +109,7 @@ export default function Frontend() {
             />
             <p>Tailwindcss</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -118,6 +124,7 @@ export default function Frontend() {
             />
             <p>Bootstrap</p>
           </motion.div>
+
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
@@ -132,6 +139,7 @@ export default function Frontend() {
             />
             <p>Css</p>
           </motion.div>
+          
           <motion.div 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
