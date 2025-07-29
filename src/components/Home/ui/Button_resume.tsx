@@ -1,3 +1,4 @@
+"use client"
 import "./button.css"
 
 export default function RESUME() {
@@ -27,8 +28,8 @@ export default function RESUME() {
                             y2="95.4804"
                             gradientUnits="userSpaceOnUse"
                             >
-                            <stop stop-color="#8F88C2"></stop>
-                            <stop offset="1" stop-color="#5C52A2"></stop>
+                            <stop stopColor="#8F88C2"></stop>
+                            <stop offset="1" stopColor="#5C52A2"></stop>
                             </linearGradient>
                         </defs>
                         </svg>
@@ -50,8 +51,8 @@ export default function RESUME() {
                             y2="160.5"
                             gradientUnits="userSpaceOnUse"
                             >
-                            <stop stop-color="white"></stop>
-                            <stop offset="1" stop-color="#686868"></stop>
+                            <stop stopColor="white"></stop>
+                            <stop offset="1" stopColor="#686868"></stop>
                             </linearGradient>
                         </defs>
                         </svg>
@@ -77,8 +78,8 @@ export default function RESUME() {
                             y2="82.8317"
                             gradientUnits="userSpaceOnUse"
                             >
-                            <stop stop-color="#C3BBFF"></stop>
-                            <stop offset="1" stop-color="#51469A"></stop>
+                            <stop stopColor="#C3BBFF"></stop>
+                            <stop offset="1" stopColor="#51469A"></stop>
                             </linearGradient>
                         </defs>
                         </svg>

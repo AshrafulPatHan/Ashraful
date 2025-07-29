@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect, useRef } from "react";
 import gsap from 'gsap';
+import Link from "next/link";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -141,6 +142,14 @@ export default function Projects() {
                   </motion.div>
                </div>
             </div>
+         </div>
+         <div className="mt-10">
+            <Link href='/project'
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold 
+              py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+            >
+              All Projects
+            </Link>
          </div>
       </div>
    )
