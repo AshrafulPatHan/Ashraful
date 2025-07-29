@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Asum Gamer BD",
+    "image": "asumGamer", 
+    "badges": ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Redux", "Tailwind CSS"],
+    "description": "Asum Gamer BD is a dynamic and interactive game review platform built using React.js, Node.js, Express.js, MongoDB, Firebase, JWT, Redux, and Tailwind CSS. This website is designed for gamers by a gamer — giving you a space to share your thoughts, discover new games, and connect with fellow gamers.",
+    "clientRepo": "https://github.com/AshrafulPatHan/Chill-Gamer",
+    "serverRepo": "https://github.com/AshrafulPatHan/chill-gamer-server",
+    "liveLink": "https://asum-gamer-bd.vercel.app/"
+  },
+  {
+    "title": "techno blogger",
+    "image": "Techno",
+    "badges": ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Tailwind CSS"],
+    "description": "Techno Blogger is a modern, full-stack blogging platform built using React.js, Node.js, Express.js, MongoDB, Firebase, JWT, Redux, and Tailwind CSS. Designed with a fully responsive UI, it works seamlessly on any device, giving users a smooth and engaging experience wherever they are.",
+    "clientRepo": "https://github.com/AshrafulPatHan/Techno-Bloger",
+    "serverRepo": "https://github.com/AshrafulPatHan/Techno-Server",
+    "liveLink": "https://techno-bloger.web.app/"
+  },
+  {
+    "title": "School",
+    "image": "School",
+    "badges": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Gsap", "Tailwind CSS"],
+    "description": "Welcome to Kuripara High School's official website, proudly built by a former student using React.js, Node.js, Express.js, MongoDB, JWT, GSAP, and Tailwind CSS. This site helps students, teachers, and guardians stay updated, connected, and informed about school news, notices, and achievements.",
+    "clientRepo": "https://github.com/AshrafulPatHan/kuripara-high-school",
+    "serverRepo": "https://github.com/AshrafulPatHan/not_for_publick",
+    "liveLink": "https://kuripara-school.ashraful.top/"
+  }
+]
