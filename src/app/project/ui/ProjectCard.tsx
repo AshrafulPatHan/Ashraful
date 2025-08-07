@@ -21,7 +21,10 @@ const imageMap: Record<string, any> = {
   asumGamer: require('@/assets/image/project/asumGamer.png'),
   chillGamer: require('@/assets/image/project/chill.png'),
   School: require('@/assets/image/project/school.png'),
-  Techno: require('@/assets/image/project/Techno.png')
+  Techno: require('@/assets/image/project/Techno.png'),
+  Restaurant: require('@/assets/image/project/Royal.png'),
+  Ui: require('@/assets/image/project/pathan_ui.png'),
+  Pronoy: require('@/assets/image/project/pronoy.png'),
 };
 
 export default function ProjectCard({ title, image, badges, description, clientRepo, serverRepo, liveLink, aos = "fade-up" }: ProjectCardProps) {

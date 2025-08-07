@@ -40,10 +40,10 @@ export default function Projects() {
                   {/* project  1*/}
                   <AsumGamerBD/>
                   {/* center card */}
+                  {/* <Royal/> */}
                   <TechnoBlogger/>
                </div>
                <Kuripara/>
-               <Royal/>
             </div>
          </div>
          <div className="mt-10">

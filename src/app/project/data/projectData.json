@@ -25,5 +25,32 @@
     "clientRepo": "https://github.com/AshrafulPatHan/kuripara-high-school",
     "serverRepo": "https://github.com/AshrafulPatHan/not_for_publick",
     "liveLink": "https://kuripara-school.ashraful.top/"
+  },
+  {
+    "title": "Royal Restaurant",
+    "image": "Restaurant",
+    "badges": ["Typescript","React.js", "Node.js", "Express.js","Nest.js", "MongoDB", "JWT", "Gsap", "Tailwind CSS"],
+    "description": "Royal Restaurant a modern, full-stack restaurant website crafted to deliver a smooth, visually appealing, and responsive experience for users. The frontend is built with React.js and TypeScript,  Vite  Tailwind CSS, offering a sleek and mobile-friendly layout, while GSAP is used to animations that bring the interface to life.",
+    "clientRepo": "https://github.com/AshrafulPatHan/Royal_restaurant",
+    "serverRepo": "https://github.com/AshrafulPatHan/Royal_Restaurant_server",
+    "liveLink": "https://royal-restaurant-ashraful.vercel.app/"
+  },
+  {
+    "title": "Pathan UI",
+    "image": "Ui",
+    "badges": ["Typescript","Javascript", "React.js","Css", "Gsap", "Tailwind CSS"],
+    "description": "Pathan UI is a component-based UI library that offers beautifully designed components built with React, Tailwind CSS, raw CSS, and sometimes plain HTML. It includes a wide range of reusable elements like buttons, cards, forms, and more—perfect for speeding up development. All components are free to use in any React application, making it a valuable frontend project for developers looking for clean, customizable, and ready-to-use UI elements.",
+    "clientRepo": "https://github.com/AshrafulPatHan/Pathan-UI",
+    "serverRepo": "https://github.com/AshrafulPatHan/ther-is-no-server",
+    "liveLink": "https://pathan-ui.vercel.app/"
+  },
+  {
+    "title": "Toimur Hasan Pronoy",
+    "image": "Pronoy",
+    "badges": ["Typescript","Javascript", "React.js","Next.js","Node","ui digain", "Css", "Gsap", "Tailwind CSS"],
+    "description": "Pronoy Website is a personal portfolio site created for Toimur Hasan Pronoy, developed by Ashraful Pathan. It’s a frontend project built with Next.js and TypeScript, featuring a beautiful UI and smooth animations powered by GSAP. The site is fully responsive, fast, and deployed on Vercel. If you’re interested in having a similar website built at an affordable price, feel free to contact me.",
+    "clientRepo": "https://github.com/Ashraful332/Pronoy",
+    "serverRepo": "https://github.com/AshrafulPatHan/ther-is-no-server",
+    "liveLink": "https://pronoy.vercel.app/"
   }
 ]

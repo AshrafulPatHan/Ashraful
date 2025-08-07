@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import AsumGamer from "@/assets/image/project/asumGamer.png";
+import AsumGamer from "@/assets/image/project/Royal.png";
 import { Badge, Button } from "@radix-ui/themes";
 import * as motion from "motion/react-client"
 import 'aos/dist/aos.css';
@@ -37,7 +37,6 @@ export default function Royal() {
                   <Badge size="2" color="cyan"><span className="text-white">Typescript</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">React.js</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">Node.js</span></Badge>
-                  <Badge size="2" color="cyan"><span className="text-white">Express.js</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">MongoDB</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">Nest.js</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">JWT</span></Badge>
@@ -46,7 +45,7 @@ export default function Royal() {
                 </div>
                 <h4 className="text-white text-2xl font-semibold mb-2">Royal Restaurant</h4>
                 <p className="text-[#D1D5DB] text-sm mb-4 ">
-                Royal Restaurant a modern, full-stack restaurant website crafted to deliver a smooth, visually appealing, and responsive experience for users. The frontend is built with React.js and TypeScript, using Vite for faster builds and optimal performance. Styling is handled with Tailwind CSS, offering a sleek and mobile-friendly layout, while GSAP is used to integrate subtle and engaging animations that bring the interface to life.
+                Royal Restaurant a modern, full-stack restaurant website crafted to deliver a smooth, visually appealing, and responsive experience for users. The frontend is built with React.js and TypeScript,  Vite  Tailwind CSS, offering a sleek and mobile-friendly layout, while GSAP is used to animations that bring the interface to life.
                 </p>
                <div className="flex flex-row items-center gap-1 sm:gap-3  ">
                   <Button color="gray" variant="solid" >
