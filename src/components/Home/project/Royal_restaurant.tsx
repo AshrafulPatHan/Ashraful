@@ -43,17 +43,17 @@ export default function Royal() {
                   <Badge size="2" color="cyan"><span className="text-white">JWT</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">Redux</span></Badge>
                   <Badge size="2" color="cyan"><span className="text-white">Tailwind CSS</span></Badge>
-               </div>
-               <h4 className="text-white text-2xl font-semibold mb-2">Royal Restaurant</h4>
-               <p className="text-[#D1D5DB] text-sm mb-4 ">
-                  Asum Gamer BD is a dynamic and interactive game review platform built using React.js, Node.js, Express.js, MongoDB, Firebase, JWT, Redux, and Tailwind CSS. This website is designed for gamers by a gamer — giving you a space to share your thoughts, discover new games, and connect with fellow gamers.
-               </p>
+                </div>
+                <h4 className="text-white text-2xl font-semibold mb-2">Royal Restaurant</h4>
+                <p className="text-[#D1D5DB] text-sm mb-4 ">
+                Royal Restaurant a modern, full-stack restaurant website crafted to deliver a smooth, visually appealing, and responsive experience for users. The frontend is built with React.js and TypeScript, using Vite for faster builds and optimal performance. Styling is handled with Tailwind CSS, offering a sleek and mobile-friendly layout, while GSAP is used to integrate subtle and engaging animations that bring the interface to life.
+                </p>
                <div className="flex flex-row items-center gap-1 sm:gap-3  ">
                   <Button color="gray" variant="solid" >
                      <a href="https://github.com/AshrafulPatHan/Royal_restaurant" target="_blank"  className=" cursor-pointer">Client Repo</a>
                   </Button>
                   <Button color="gray" variant="solid">
-                     <a href="https://github.com/AshrafulPatHan/chill-gamer-server" target="_blank"  className=" cursor-pointer">
+                     <a href="https://github.com/AshrafulPatHan/Royal_Restaurant_server" target="_blank"  className=" cursor-pointer">
                         Server Repo
                      </a>
                   </Button>
