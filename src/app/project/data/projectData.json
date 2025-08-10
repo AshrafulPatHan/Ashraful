@@ -33,7 +33,7 @@
     "description": "Royal Restaurant a modern, full-stack restaurant website crafted to deliver a smooth, visually appealing, and responsive experience for users. The frontend is built with React.js and TypeScript,  Vite  Tailwind CSS, offering a sleek and mobile-friendly layout, while GSAP is used to animations that bring the interface to life.",
     "clientRepo": "https://github.com/AshrafulPatHan/Royal_restaurant",
     "serverRepo": "https://github.com/AshrafulPatHan/Royal_Restaurant_server",
-    "liveLink": "https://royal-restaurant-ashraful.vercel.app/"
+    "liveLink": "https://royal-restaurant-my.vercel.app/"
   },
   {
     "title": "Pathan UI",
