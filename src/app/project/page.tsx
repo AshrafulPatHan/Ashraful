@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "@/components/Navigation/navbar"
+// import Navbar from "@/components/Navigation/navbar"
 import "./project.css"
 import Footer from "@/components/Navigation/footer"
 import { useEffect, useState } from "react";
@@ -11,8 +11,8 @@ import PageNave from "@/components/Navigation/PageNave";
 import projectData from "./data/projectData.json";
 import ProjectCard from "./ui/ProjectCard";
 // import Image from "next/image";
-import Techno from "@/assets/image/project/Techno.png";
-import { Badge, Button } from "@radix-ui/themes";
+// import Techno from "@/assets/image/project/Techno.png";
+// import { Badge, Button } from "@radix-ui/themes";
 
 export default function ProjectPage(){
      const [snowfall, setSnowfall] = useState(true);
@@ -23,7 +23,7 @@ export default function ProjectPage(){
     img1.src = snowflake1.src; 
 
     const img2 = new Image();
-    img2.src = snowflake2.src; 
+    img2.src = snowflake2.src;
 
     setSnowImages([img1, img2]);
   }, []);
@@ -45,8 +45,6 @@ export default function ProjectPage(){
           <ProjectCard
             key={index}
             {...project}
-            /* অ্যানিমেশন ভ্যারিয়েশন রাখতে চাইলে: */
-            // aos={index % 3 === 0 ? 'flip-left' : index % 3 === 1 ? 'flip-up' : 'flip-right'}
           />
         ))}
       </div>
