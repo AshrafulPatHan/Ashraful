@@ -71,7 +71,7 @@ export default function Hero() {
                         height={30}
                         />
                      </a>
-                  <a href="https://www.linkedin.com/in/ashraful-pathan" 
+                  <a href="https://www.linkedin.com/in/ashraful-hasan-safin/"
                      target="_blank" 
                      rel="noopener noreferrer" className=" ">
                         <Image
