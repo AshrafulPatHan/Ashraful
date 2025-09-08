@@ -84,7 +84,7 @@ export default function Contact() {
             <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
               E-mail:
             </h2>
-              <p className="text-gray-300 text-[16px]">ashrafulPathan3927@gmail.com</p>
+              <p className="text-gray-300 text-[16px]">ashrafulpathan3927@gmail.com</p>
             <h2 className="text-lg font-semibold text-gray-500 text-[16px]">
               Location:
             </h2>
