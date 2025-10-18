@@ -5,11 +5,12 @@ import Figma from "@/assets/image/logo/icons8-figma.svg";
 import Linux from "@/assets/image/logo/icons8-linux-96.png";
 import Postman from "@/assets/image/logo/icons8-postman-inc-96.png";
 import python from "@/assets/image/logo/icons8-python.svg";
-import redux from "@/assets/image/logo/icons8-redux-96.png";
+// import redux from "@/assets/image/logo/icons8-redux-96.png";
 // import fabric from "@/assets/image/logo/fabric.png";
 import Gimp from "@/assets/image/logo/icons8-gimp.svg";
 import Flask from "@/assets/image/logo/flask-seeklogo.svg";
 import * as motion from "motion/react-client"
+import MONGOOSE from "@/assets/image/logo/mongoose.svg";
 
 
 export default function Weekend() {
@@ -117,13 +118,13 @@ export default function Weekend() {
           transition={{ duration: 0.2 }}
           className="w-auto sm:w-[103px] h-[100px] p-4 bg-[#1F2937] hover:bg-[#22182b] flex flex-col items-center gap-1 rounded-lg text-white ">
             <Image
-              src={redux}
+              src={MONGOOSE}
               width={48}
               height={48}
               className="w-[48px] h-[48px] "
-              alt="redux"
+              alt="MONGOOSE"
             />
-            <p>Redux</p>
+            <p>Mongoose</p>
           </motion.div>
 
           <motion.div 
