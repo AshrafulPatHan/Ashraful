@@ -1,40 +1,27 @@
-@import "tailwindcss";
-
-html {
-  scroll-behavior: smooth;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  font-family: var(--font-inter), sans-serif; 
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 }
 
 body {
-  font-family: var(--font-inter), sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.font-inter {
-  font-family: var(--font-inter), sans-serif;
-}
-
-
-
-/* Style 2 card aline */
-@media screen and (min-width:830px ) {
-  #skills-2Card{
-    flex-direction: row;
-    gap: 8px;
-  }
-  #project-2Card{
-    flex-direction: row;
-    gap: 8px;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
-@media screen and (min-width:930px ) {
-  #skills-2Card{
-    gap: 32px;
-  }
-  #project-2Card{
-    gap: 32px;
-  }
-}
-

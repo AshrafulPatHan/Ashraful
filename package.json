@@ -1,39 +1,26 @@
 {
-  "name": "portfolio",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "./banner.sh && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@lottiefiles/dotlottie-react": "^0.14.2",
-    "@radix-ui/themes": "^3.2.1",
-    "@reduxjs/toolkit": "^2.6.1",
-    "aos": "^2.3.4",
-    "gsap": "^3.12.7",
-    "motion": "^12.7.2",
-    "next": "15.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hot-toast": "^2.5.2",
-    "react-intersection-observer": "^9.16.0",
-    "react-redux": "^9.2.0",
-    "react-simple-typewriter": "^5.0.1",
-    "react-snowfall": "^2.2.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.30"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/aos": "^3.0.7",
+    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.30"
   }
 }
