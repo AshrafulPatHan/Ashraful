@@ -31,12 +31,12 @@ export default function Hero() {
       yoyo: true,
       ease: "easeInOut",
     });
-
+ 
     // Typewriter-like effect using GSAP
     const words = [
       "MernStack Developer",
       "Front-End Developer",
-      "Full-Stack Learner",
+      "Full-Stack Learner", 
     ];
     let index = 0;
 
