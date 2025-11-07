@@ -4,17 +4,19 @@ import About from "@/components/home/about";
 import Contact from "@/components/home/contact";
 import Education from "@/components/home/education";
 import Hero from "@/components/home/Hero";
+import Offers from "@/components/home/offers";
 import Projects from "@/components/home/projects";
 import Skills from "@/components/home/Skills";
 import Footer from "@/components/navigation/Footer";
 import Navbar from "@/components/navigation/Navbar";
+import "../components/home/home.css"
 
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 ">
+    <div className="bg-[#090813] ">
       <Navbar  />
-      <header className="overflow-x-hidden">
+      <header className="overflow-x-hidden ">
         <div id="home">
           <Hero />
         </div>
@@ -23,6 +25,7 @@ export default function Home() {
         <div id="aboutme">
           <About />
         </div>
+        <Offers />
         <div id="skills">
           <Skills />
         </div>

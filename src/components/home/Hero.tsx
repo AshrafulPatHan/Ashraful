@@ -68,10 +68,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="py-16 lg:py-32 text-white px-4 pt-20">
+    <div className="relative py-16 lg:py-32 text-white px-4 pt-20 h-screen ">
       <div
         ref={containerRef}
-        className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center"
+        className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center "
       >
         {/* Left Side */}
         <div className="w-[90vw] md:w-[640px] flex flex-col items-center md:items-start">
@@ -155,6 +155,7 @@ export default function Hero() {
           />
         </div>
       </div>
+      <div className="absolute w-[40%] h-[40%] bg-blue-400 rounded-b-full top-0 left-[30%] mix-blend-multiply filter blur-2xl z-10 "></div>
     </div>
   );
 }

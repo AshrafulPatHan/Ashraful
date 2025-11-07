@@ -23,6 +23,22 @@ body {
   width: 100vw;
   height: 600px;
 }
+/* Home background */
+.Hero-Background{
+  background-image: url('../assets/image/background/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+}
+/* Webs background */
+.Waves-Background{
+  background-image: url('../assets/image/background/waves.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+}
 
 @layer utilities {
   .text-balance {
