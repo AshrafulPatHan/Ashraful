@@ -2,9 +2,11 @@
 - desing the site
 - navbar
 - hero
-- about
+- about me
 - skills
 - project
+- offers
+- blog
 - Education and Training
 - CONTACT WITH ME
 - footer
