@@ -6,4 +6,4 @@ read commit
 git add .
 git commit -m "$commit"
 
-echo "Your commit is save localy!"
+echo "...Your commit is save localy!"
