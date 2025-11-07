@@ -1,5 +1,5 @@
 "use client"
-import "./button.css"
+import "./ui.css";
 
 export default function RESUME() {
     return(
