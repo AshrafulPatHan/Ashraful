@@ -6,15 +6,15 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Logos
-import javaScript from "@/assets/image/logo/icons8-javascript.svg";
+import javaScript from "@/assets/image/logo/javascript.svg";
 import ReactLogo from "@/assets/image/logo/react.svg";
-import Next from "@/assets/image/logo/icons8-nextjs.svg";
-import Vite from "@/assets/image/logo/icons8-vite.svg";
-import typescript from "@/assets/image/logo/icons8-typescript.svg";
-import Tailwindcss from "@/assets/image/logo/icons8-tailwindcss.svg";
-import Bootstrap from "@/assets/image/logo/icons8-bootstrap.svg";
-import Html from "@/assets/image/logo/icons8-html5-96.png";
-import Css from "@/assets/image/logo/icons8-css3.svg";
+import Next from "@/assets/image/logo/nextjs.svg";
+import Vite from "@/assets/image/logo/vite.svg";
+import typescript from "@/assets/image/logo/typescript.svg";
+import Tailwindcss from "@/assets/image/logo/tailwindcss.svg";
+import Bootstrap from "@/assets/image/logo/bootstrap.svg";
+import Html from "@/assets/image/logo/html5-96.png";
+import Css from "@/assets/image/logo/css3.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
