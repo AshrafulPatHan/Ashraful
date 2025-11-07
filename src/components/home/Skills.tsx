@@ -153,7 +153,7 @@ export default function Skills() {
 
         {/* Cards */}
         <div className="flex flex-col xl:flex-row items-center gap-8">
-          <div className="flex flex-col gap-8" id="skills-2Card">
+          <div className="flex flex-col xl:flex-row gap-8" id="skills-2Card">
             {/* Frontend */}
             <div ref={frontRef}>
               <Frontend />

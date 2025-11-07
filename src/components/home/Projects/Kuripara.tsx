@@ -47,7 +47,7 @@ export default function Kuripara() {
           className="w-[362px] h-[196px] rounded-lg object-cover"
         />
 
-        <div className="grid grid-cols-4 gap-2 mt-3 mb-4">
+        <div className="flex flex-wrap gap-2 mt-3 mb-4">
           {[
             "React.js",
             "Node.js",
@@ -60,7 +60,7 @@ export default function Kuripara() {
           ].map((tech, index) => (
             <span
               key={index}
-              className="px-2 py-1 bg-cyan-500 text-white text-xs font-medium rounded"
+              className="px-2 py-1 bg-[#abb7d823] text-white text-xs font-medium rounded"
             >
               {tech}
             </span>
@@ -80,21 +80,21 @@ export default function Kuripara() {
           <a
             href="https://github.com/AshrafulPatHan/Chill-Gamer"
             target="_blank"
-            className="bg-gray-600 text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition"
+            className="bg-gray-600 text-white font-normal py-1 px-2 text-sm rounded hover:bg-gray-700 transition"
           >
             Client Repo
           </a>
           <a
             href="https://github.com/AshrafulPatHan/chill-gamer-server"
             target="_blank"
-            className="bg-gray-600 text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition"
+            className="bg-gray-600 text-white font-normal py-1 px-2 text-sm rounded hover:bg-gray-700 transition"
           >
             Server Repo
           </a>
           <a
             href="https://asum-gamer-bd.vercel.app/"
             target="_blank"
-            className="bg-gray-600 text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition"
+            className="bg-[#3E63DD] text-white font-normal py-1 px-2 text-sm rounded hover:bg-[#3e63ddc2] transition"
           >
             Live Link
           </a>

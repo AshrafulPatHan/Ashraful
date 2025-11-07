@@ -13,7 +13,7 @@ export default function Projects() {
                     <h2 className="text-[30px] font-bold text-center ">My Best Work</h2>
                     <p className="text-xl font-bold text-center text-[#F87171] mb-6 ">Explore My Projects and work</p>
                     <div className="flex flex-col xl:flex-row items-center gap-8">
-                        <div className="flex flex-col gap-8 lg:gap-8" id="project-2Card">
+                        <div className="flex flex-col xl:flex-row gap-8 lg:gap-8" id="project-2Card">
                             {/* project  1*/}
                             <AsumGamerBD />
                             {/* center card */}
