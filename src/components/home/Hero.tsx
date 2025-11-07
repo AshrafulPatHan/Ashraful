@@ -3,9 +3,7 @@
 export default function Hero() {
     return (
         <div>
-            <header>
-                hero
-            </header>
+            Hero
         </div>
     )
 }

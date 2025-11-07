@@ -15,8 +15,8 @@ export default function Navbar() {
     console.log("Snow:", !snowOn ? "ON" : "OFF");
   };
 
-  return (
-    <nav className="bg-[#00000027] text-white sticky top-0 z-50 px-8 py-2 backdrop-blur-lg">
+  return (  
+    <nav className="bg-[#00000027] text-white sticky top-0 z-50 px-8 py-4 rounded-[40px] backdrop-blur-lg max-w-7xl mx-auto mt-4">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
