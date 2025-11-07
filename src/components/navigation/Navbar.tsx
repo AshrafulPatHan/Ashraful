@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (  
-    <nav className="bg-[#00000027] text-white sticky top-0 z-50 px-8 py-4 rounded-[40px] backdrop-blur-lg max-w-7xl mx-auto mt-4">
+    <nav className="bg-gradient-to-r from-[#5f17d411] via-[#ffffff05] to-[#6365ee15] text-white sticky top-4 z-50 px-8 py-4 rounded-[40px] backdrop-blur-[10px] max-w-7xl mx-auto border-[#ffffff13] border-b-[0.1px]  ">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">

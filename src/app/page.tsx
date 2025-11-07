@@ -12,16 +12,14 @@ import Navbar from "@/components/navigation/Navbar";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
-      <>
-        <Navbar />
-        <header>
-          <div id="home">
-            <Hero />
-          </div>
-        </header>
-      </>
-      <main>
+    <div className="bg-gradient-to-r from-black via-gray-900 to-gray-950 ">
+      <Navbar  />
+      <header className="overflow-x-hidden">
+        <div id="home">
+          <Hero />
+        </div>
+      </header>
+      <main className="overflow-x-hidden">
         <div id="aboutme">
           <About />
         </div>

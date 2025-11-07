@@ -68,7 +68,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="py-16 lg:py-32 bg-gradient-to-r from-black via-gray-900 to-gray-950 text-white px-4 pt-20">
+    <div className="py-16 lg:py-32 text-white px-4 pt-20">
       <div
         ref={containerRef}
         className="flex flex-col md:flex-row items-center md:items-start gap-1 xl:gap-[140px] justify-center"
@@ -151,7 +151,7 @@ export default function Hero() {
           <Image
             src={Ashraful}
             alt="Ashraful Pathan"
-            className="rounded-full w-[382px] bg-white shadow-lg shadow-blue-500/10 hover:shadow-blue-500/30 transition-all duration-500"
+            className=" rounded-xl w-[382px] bg-blue-500 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/30 transition-all duration-500"
           />
         </div>
       </div>
