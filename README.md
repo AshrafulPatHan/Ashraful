@@ -1,6 +1,6 @@
 # Ashraful's Developer Portfolio 🌐🚀
 
-Hi, I'm **Ashraful**, **React.js Developer**.  
+Hi, I'm **Ashraful**, **Javascript Developer**.  
 This is my personal portfolio website built using modern frontend technologies to showcase my projects, skills, and passion for web development.
 
 🔗 **Live Website:** [ashraful-pathan.web.app](https://ashraful-pathan.vercel.app/)  
